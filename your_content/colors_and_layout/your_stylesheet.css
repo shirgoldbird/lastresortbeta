@@ -26,7 +26,7 @@ div#container {
 }
 
 div#links-bar {
-    background-color: dodgerblue;  /* The background color of your links bar */
+    background-color: #363e44;  /* The background color of your links bar */
 }
 
 a.link-bar-link {
@@ -52,7 +52,7 @@ a.navigation-button-disabled {
 }
 
 div#blurb {
-    background-color: #C0C0C0;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
+    background-color: #363e44;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
     width: 75%;  /* The maximum width of the blurb box. */
     border-left: 3px dotted lightgray;  /* If you change the background color of the blurb, play with these two lines or else it will look bad */
     border-right: 3px dotted lightgray;
