@@ -9,14 +9,14 @@ or use this list of available color names: https://www.w3schools.com/cssref/css_
 
 body {
     font-family: 'PT Sans', sans-serif;  /* The font of all the text on all pages */
-    color: black;  /* The color of the font of most of the text on your website */
-    background-color: white;  /* The color of the background behind everything */
-    background-image: url("../images/background_image.png");  /* The pattern on the background. Delete to change to a solid color
+    color: white;  /* The color of the font of most of the text on your website */
+    background-color: #181A1B;  /* The color of the background behind everything */
+    background-image: url("../images/background_image.jpg");  /* The pattern on the background. Delete to change to a solid color
                                                        or replace with your own image to tile across your background. */
 }
 
 a {
-    color: maroon;  /* The color of the hyperlinks */
+    color: darkturquoise;  /* The color of the hyperlinks */
 }
 
 div#container {
@@ -26,7 +26,7 @@ div#container {
 }
 
 div#links-bar {
-    background-color: indianred;  /* The background color of your links bar */
+    background-color: dodgerblue;  /* The background color of your links bar */
 }
 
 a.link-bar-link {
@@ -40,7 +40,7 @@ a.link-bar-link:hover {
 }
 
 a.navigation-button {
-    color: maroon;  /* Color of the navigation bar hyperlinks */
+    color: darkturquoise;  /* Color of the navigation bar hyperlinks */
     font-size: 2em;  /* Size of the navigation bar hyperlinks */
     text-decoration: none;  /* Delete this if you want your navigation links to be underlined */
 }
@@ -52,15 +52,15 @@ a.navigation-button-disabled {
 }
 
 div#blurb {
-    background-color: lightgray;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
+    background-color: #313537;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
     width: 75%;  /* The maximum width of the blurb box. */
-    border-left: 3px dotted lightslategray;  /* If you change the background color of the blurb, play with these two lines or else it will look bad */
-    border-right: 3px dotted lightslategray;
+    border-left: 3px dotted lightgray;  /* If you change the background color of the blurb, play with these two lines or else it will look bad */
+    border-right: 3px dotted lightgray;
 }
 
 h1#page-title {
     color: black;  /* Color of the page title */
-    font-size: 3em;  /* Font size of the post title */
+    font-size: 2em;  /* Font size of the post title */
 }
 
 div#post-date {
