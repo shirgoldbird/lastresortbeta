@@ -4,7 +4,8 @@
 {# This is the start of the `content` block. It's part of the <body> of the page. This is where all the visible
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {% block content %}
-    <h1 id="page-title">Whoops! 
-	<p>Lost your way around the hotel? There's nothing here!
-	<p><small>Except for Grandma Bertha.</small></h1>
+    <h1 id="page-title">
+	<p style="color:white;">Whoops! </h1>
+	<p style="color:white;">Lost your way around the hotel? There's nothing here!
+	<p style="color:white;">Except for Grandma Bertha.</small>
 {% endblock %}
