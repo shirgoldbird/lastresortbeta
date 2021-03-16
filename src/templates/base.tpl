@@ -65,7 +65,10 @@
     {% block content %}{% endblock %}
 
     <div id="powered-by">
-        Powered by <a id="powered-by-link" href="https://github.com/ryanvilbrandt/comic_git">comic_git</a> v{{ version }}
+       	   Powered by <a id="powered-by-link" href="https://github.com/ryanvilbrandt/comic_git">comic_git</a> v{{ version }}. © PurpleSmart Productions, 2020 - Present.
+    </div>
+	<div id="extra">
+       	   Here at the hotel we try to provide excellent service, so if you notice anything off, be it with the comic or the website, please inform us right away at mrbones@lastresortcomic.com!
     </div>
 </div>
 {% endblock %}
