@@ -10,7 +10,7 @@ or use this list of available color names: https://www.w3schools.com/cssref/css_
 body {
     font-family: 'PT Sans', sans-serif;  /* The font of all the text on all pages */
     color: white;  /* The color of the font of most of the text on your website */
-    background-color: #181A1B;  /* The color of the background behind everything */
+    background-color: dimgrey;  /* The color of the background behind everything */
     background-image: url("../images/background_image.jpg");  /* The pattern on the background. Delete to change to a solid color
                                                        or replace with your own image to tile across your background. */
 }
@@ -52,7 +52,7 @@ a.navigation-button-disabled {
 }
 
 div#blurb {
-    background-color: #313537;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
+    background-color: gray;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
     width: 75%;  /* The maximum width of the blurb box. */
     border-left: 3px dotted lightgray;  /* If you change the background color of the blurb, play with these two lines or else it will look bad */
     border-right: 3px dotted lightgray;
