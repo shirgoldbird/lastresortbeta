@@ -30,6 +30,13 @@
     <link rel="stylesheet" type="text/css" href="{{ base_dir }}/src/css/style.css">
     <link rel="stylesheet" type="text/css" href="{{ base_dir }}/your_content/colors_and_layout/your_stylesheet.css">
     <link rel="icon" href="{{ base_dir }}/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ base_dir }}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ base_dir }}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ base_dir }}/favicon-16x16.png">
+    <link rel="manifest" href="{{ base_dir }}/site.webmanifest">
+    <link rel="mask-icon" href="{{ base_dir }}/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <meta property="og:title" content="{{ comic_title }}" />
     <meta property="og:description" content="{{ comic_description }}" />
     <meta property="og:type" content="website" />
@@ -64,11 +71,11 @@
        "Powered by comic_git" footer. #}
     {% block content %}{% endblock %}
 
-    <div id="powered-by">
-       	   Powered by <a id="powered-by-link" href="https://github.com/ryanvilbrandt/comic_git">comic_git</a> v{{ version }}. © PurpleSmart Productions, 2020 - Present.
-    </div>
 	<div id="extra">
-       	   <p><small>Our hotel prides itself on having quality service, so if you notice anything out of the ordinary, be it with the comic or the website, please inform us right away at mrbones@lastresortcomic.com!</small>
+       	   <p><small>Our hotel prides itself on having quality service, so if you notice anything out of the ordinary, be it with the comic or the website, please <a href="mailto:mrbones@lastresortcomic.com">inform us right away</a>!</small>
+    </div>
+    <div id="powered-by">
+       	   Powered by <a id="powered-by-link" href="https://github.com/ryanvilbrandt/comic_git" target="_blank">comic_git</a> v{{ version }}. © PurpleSmart Productions, 2020 - Present.
     </div>
 </div>
 {% endblock %}
