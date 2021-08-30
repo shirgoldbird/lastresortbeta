@@ -19,4 +19,4 @@ Meet Sophia and Ramona (and Mr. Bones), two very living human women who are hire
 <p style="text-align: center;">View the <a href="latest">latest comic</a>!</p>
 </div>
 
-<img src="{{ base_dir }}/your_content/images/facepaint.png" style="height: 500px;">
+<img src="/lastresortbeta/your_content/images/facepaint.png" style="height: 500px;">
