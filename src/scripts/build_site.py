@@ -229,6 +229,7 @@ def get_transcripts(comic_folder: str, comic_info: RawConfigParser, page_name: s
         language = os.path.splitext(os.path.basename(path))[0]
         with open(path, "rb") as f:
             transcripts[language] = f.read().decode("utf-8").replace("\n", "<br>\n")
+            transcripts[language] = MARKDOWN.convert(transcripts[language])
     default_language = comic_info.get("Transcripts", "Default language")
     if default_language and default_language in transcripts:
         transcripts.move_to_end(default_language, last=False)
