@@ -1,11 +1,22 @@
-<h1>Welcome to comic_git!</h1>
+<div id="home-container">
 
-<p>What you're seeing is the default website created by comic_git, a static-site generator hosted FOR FREE on GitHub Pages, that YOU can use to publish your own web comic easily and quickly!</p>
+<h1 style="text-align: center;">Welcome to The Last Resort!</h1>
 
-<p>Click <a href="comic/197/#comic-page">here</a> to go to the first page of the sample comic to see how it looks out-of-the-box.<br>
-    You can also click <a href="latest/#comic-page">here</a> to go to the latest page, which will always point to the most recently published comic.</p>
+Meet Sophia and Ramona (and Mr. Bones), two very living human women who are hired to work at a hotel for spirits in the afterlife! A job that includes, but is not limited to:
 
-<p>For instructions on how to use comic_git, check out the <a href="https://github.com/ryanvilbrandt/comic_git/wiki">wiki</a>.<br>
-    If you'd like to jump right into creating your own webcomic with comic_git, check out the <a href="https://github.com/ryanvilbrandt/comic_git/wiki/Getting-Started">Getting Started</a> section.</p>
+<ul>
+    <li>Navigating The Vast, a.k.a. The Afterlife, a huge endless world with all sorts of biomes and creatures inhabiting it</li>
+    <li>Helping their boss, Mr. Bones, run one of many hotels for people in the afterlife. There will be many shenanigans.</li>
+    <li>Getting paid in <em>exposure</em>... TO FUN!</li>
+    <li>Helping shapeless cute blobs decide what they want to look like in the afterlife.</li>
+    <li><em>Dealing with and confronting their inner demons, haunting them at every turn.</em></li>
+    <li>Fulfilling quests and requests for guest all around the Vast that are fun and cool and only sometimes potentially lethal.</li>
+    <li><em>Fighting off the presence in the Afterlife out to get them, God knows why, please, they just want to do their job, they're just the employees.</em></li>
+    <li>Being haunted by the ghostly grandma chef because they didn't finish their meal.</li>
+    <li>And so much MORE!</li>
+</ul>
 
-<p>(To edit this page when you're setting up your own website, edit the file <code>/your_content/home page.txt</code>)</p> 
+<p style="text-align: center;">View the <a href="latest">latest comic</a>!</p>
+</div>
+
+<img src="/your_content/images/facepaint.png" style="height: 500px;">

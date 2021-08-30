@@ -11,6 +11,10 @@ div#container {
     padding: 30px;
 }
 
+div#home-container {
+    text-align: left;
+}
+
 div img {
     max-width: 100%;
 }

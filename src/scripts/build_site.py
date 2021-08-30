@@ -137,6 +137,7 @@ def build_and_publish_comic_pages(comic_url: str, comic_folder: str, comic_info:
     if os.path.isfile(f"your_content/{comic_folder}home page.txt"):
         with open(f"your_content/{comic_folder}home page.txt") as f:
             home_page_text = f.read()
+            home_page_text = MARKDOWN.convert(home_page_text)
     else:
         home_page_text = ""
 
