@@ -1,6 +1,5 @@
-import sys
-sys.path.insert(0, './src')
+from src.scripts.build_site import delete_output_file_space
+from utils import find_project_root
 
-from scripts.build_site import delete_output_file_space
-
+find_project_root()
 delete_output_file_space()

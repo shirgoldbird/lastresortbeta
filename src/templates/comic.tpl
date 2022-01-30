@@ -109,7 +109,7 @@
                     {% endfor %}
                     </div>
                 </td>
-                {% if transcripts.keys()|length > 1 %}
+                {% if transcripts|length > 1 %}
                 <td id="language-list">
                     <label for="language-select">Languages</label>
                     <select id="language-select" size="7">
