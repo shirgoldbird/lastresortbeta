@@ -219,6 +219,8 @@ body {
     background-color: white;  /* The color of the background behind everything */
     background-image: url("../../your_content/images/background_image.png");  /* The pattern on the background. Delete to change to a solid color
                                                        or replace with your own image to tile across your background. */
+	background: rgb(63,56,154);
+	background: linear-gradient(180deg, rgba(63,56,154,1) 0%, rgba(209,114,235,1) 100%);
 }
 
 a {
