@@ -13,7 +13,7 @@
 <p>"This one says your story should have a skeleton."</p>
 <p>"<em>The skeleton is driving the bus."</em></p>
 <p>"Where's he taking you?"</p>
-<p>"... A hotel..."</p>
+<p>"... A hotel."</p>
 <p>"A hotel? Why a hotel?"</p>
 <p>"Because I just thought of the title 'The Last Resort' and it sounds badass! And here's the plot: one day, this bus rolls to a stop in front of you, and Mr. Bones Dude comes out all 'hey, can you help me run this hotel' and you have nothing better to do that day, so you say sure."</p>
 <p>"And then you go work at his hotel for dead people."</p>
