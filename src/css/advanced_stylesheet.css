@@ -238,6 +238,11 @@ div#links-bar {
     background-color: #f57a67;  /* The background color of your links bar */
 }
 
+footer {
+    font-size: 0.7em;
+    text-align: center;
+}
+
 a.link-bar-link {
     color: white;  /* The color of the links in your links bar */
     font-weight: bold;  /* Delete this to unbold the links in your links bar*/

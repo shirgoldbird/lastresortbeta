@@ -63,15 +63,17 @@
        in on their own. It will contain everything on a webpage after the links bar and before the
        "Powered by comic_git" footer. #}
     {% block content %}{% endblock %}
+</div>
+{% endblock %}
+</body>
+<footer>
     <div>
-        <p><small>Our hotel prides itself on having quality service, so if you notice anything out of the ordinary, be it with the comic or the website, please <a href="mailto:mrbones@lastresortcomic.com">inform us right away</a>!</small>
+        <p>Our hotel prides itself on having quality service, so if you notice anything out of the ordinary, be it with the comic or the website, please <a href="mailto:mrbones@lastresortcomic.com">inform us right away</a>!
     </div>
     <div id="powered-by">
         Powered by <a id="powered-by-link" href="https://ryanvilbrandt.github.io/comic_git">comic_git</a> v{{ version }}
     </div>
-</div>
-{% endblock %}
-</body>
+</footer
 {# This is the start of the `script` block. Most pages don't need any javascript, so by default it's blank, but some
    pages like infinite_scroll.tpl will fill this in with a <script> tag. #}
 {% block script %}{% endblock %}
