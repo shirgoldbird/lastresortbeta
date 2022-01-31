@@ -29,7 +29,7 @@
 <li><a href="https://twitter.com/monokuromatic" target="_blank">Twitter</a></li>
 <li><a href="https://www.patreon.com/monochromatic" target="_blank">Patreon</a></li>
 </ul>
-<h3><strong><span style="color: #0000ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Davis P (he/him) - Storyboarder, occasional colorist, &amp; token Canadian</span><br /></strong></h3>
+<h3><span style="color: #0000ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Davis P (he/him) - Storyboarder, occasional colorist, &amp; token Canadian</span><br /></h3>
 <p>Davis is a freelance Canadian artist who is not only based in Los Angeles, CA, but is also based. Upon being requested with information for his bio, Davis claimed to be hungry and tired. Beyond that, he has been drawing with his left hand for his whole life and it's been going okay.</p>
 <p>His roles in the comic include but are not limited to: storyboarding pages, drawing in different resolutions to Katja's frustrations, generally causing problems (affectionate), being 99% of Cayetana's impulse control, and being a good bean that deserves love. </p>
 <ul>
