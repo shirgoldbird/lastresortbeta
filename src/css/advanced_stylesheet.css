@@ -40,6 +40,11 @@ span.link-bar-separator {
 
 div#comic-page {
     margin-bottom: 20px;
+    text-align: center;
+}
+
+img#comic-page {
+    max-width: 50%;
 }
 
 div#navigation-bar {
