@@ -43,8 +43,8 @@ div#comic-page {
     text-align: center;
 }
 
-img#comic-page {
-    max-width: 50%;
+img#comic-image {
+    max-width: 75%;
 }
 
 div#navigation-bar {

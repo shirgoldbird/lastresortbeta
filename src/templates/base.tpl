@@ -37,6 +37,8 @@
     <meta property="og:image" content="{{ comic_url + '/your_content/images/preview_image.png' }}" />
     <meta property="og:image:width" content="100px" />
     <meta property="og:image:height" content="100px" />
+    <meta name="twitter:card" content="summary">
+    <meta name="theme-color" content="#f57a67">
     <title>{{ page_title }} - {{ comic_title }}</title>
     {%- endblock %}
 </head>
