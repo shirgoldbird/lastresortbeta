@@ -226,11 +226,11 @@ body {
 }
 
 a {
-    color: maroon;  /* The color of the hyperlinks */
+    color: #f57a67;  /* The color of the hyperlinks */
 }
 
 a:hover {
-    color: #f57a67;
+    color: maroon;
 }
 
 div#container {
