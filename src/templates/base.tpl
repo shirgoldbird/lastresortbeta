@@ -63,7 +63,9 @@
        in on their own. It will contain everything on a webpage after the links bar and before the
        "Powered by comic_git" footer. #}
     {% block content %}{% endblock %}
-
+    <div>
+        <p><small>Our hotel prides itself on having quality service, so if you notice anything out of the ordinary, be it with the comic or the website, please <a href="mailto:mrbones@lastresortcomic.com">inform us right away</a>!</small>
+    </div>
     <div id="powered-by">
         Powered by <a id="powered-by-link" href="https://ryanvilbrandt.github.io/comic_git">comic_git</a> v{{ version }}
     </div>
