@@ -5,7 +5,7 @@
 {# This is the start of the `content` block. It's part of the <body> of the page. This is where all the visible
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {%- block content %}
-<h1 id="page-title">About</h1>
+<h1 id="page-title"></h1>
 <h1>Origins...</h1>
 <p>The year is 2020. All over the globe, people have been staying inside their homes for months on end, trying their best to not fall prey to a global pandemic.</p>
 <p>It's two AM. Two people sit in bed, aimlessly bouncing off ideas for a project. Their names aren't important. How they look like isn't important, either (but if it was important, rest assured, they are totally good-looking and fit). The only thing that matters is that so far they've only come up with a Ghost Grandma dating sim so, clearly, things are not going well.</p>
