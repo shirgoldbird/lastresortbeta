@@ -23,7 +23,7 @@ def get_comic_url(comic_info: RawConfigParser):
         repo_author, repo_name = os.environ["GITHUB_REPOSITORY"].split("/")
         if not comic_domain:
             comic_domain = f"{repo_author}.github.io"
-        if not base_directory:
+        if base_directory is None:
             base_directory = repo_name
             if base_directory.lower() == f"{repo_author.lower()}.github.io":
                 # In this case, Github will try to deploy to http://<username>.github.io/ so we unset base_directory
