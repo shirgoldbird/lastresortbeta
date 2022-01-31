@@ -5,8 +5,8 @@
 {# This is the start of the `content` block. It's part of the <body> of the page. This is where all the visible
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {%- block content %}
-<h1 id="page-title">&nbsp;</h1>
-<h1><span style="text-decoration: underline;"><span style="color: #ff9900; --darkreader-inline-color: #ffa31a; text-decoration: underline;" data-darkreader-inline-color="">Origins...</span></span></h1>
+<h1 id="page-title">Welcome to the Last Resort!</h1>
+<h1><span style="text-decoration: underline;"><span style="--darkreader-inline-color: #ffa31a; text-decoration: underline;">Origins...</span></span></h1>
 <p>The year is 2020. All over the globe, people have been staying inside their homes for months on end, trying their best to not fall prey to a global pandemic.</p>
 <p>It's two AM. Two people sit in bed, aimlessly bouncing off ideas for a project. Their names aren't important. How they look like isn't important, either (but if it was important, rest assured, they are totally good-looking and fit). The only thing that matters is that so far they've only come up with a Ghost Grandma dating sim so, clearly, things are not going well.</p>
 <p>"This prompt card says a bus. What about a creepy bus that just picks you up and takes you, I don't know, somewhere?"</p>
@@ -21,21 +21,21 @@
 <p>"Like the afterlife!"</p>
 <p>"...I see."</p>
 <p><br /><br />That's totally how it happened.</p>
-<h1><span style="text-decoration: underline;"><span style="color: #ff9900; --darkreader-inline-color: #ffa31a; text-decoration: underline;" data-darkreader-inline-color="">About the core team</span></span></h1>
-<h3><span style="color: #0000ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Cayetana Moreno (she/her) - head writer, social media team &amp; cat herder</span><strong><br /></strong></h3>
+<h1><span style="text-decoration: underline;"><span style="text-decoration: underline;">About the core team</span></span></h1>
+<h3><span style="color: #ffcc00; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Cayetana Moreno (she/her) - head writer, social media team &amp; cat herder</span><strong><br /></strong></h3>
 <p>Cayetana is a freelance Mexican writer based in Los Angeles, CA, who claims to be a writer, but is having a surprisingly hard time writing her bio. Cayetana has been writing stories for as long as she can remember, and is more prominently known for being active in the fanfiction scene (Ace Attorney, Futurama, My Little Pony, among others).</p>
 <p>Her roles in the comic include but are not limited to: story writing, script writing, herding the artists, trying to maintain social medias and patreon, being very eager to share artwork at bad social media times, and trying her best.</p>
 <ul>
 <li><a href="https://twitter.com/monokuromatic" target="_blank">Twitter</a></li>
 <li><a href="https://www.patreon.com/monochromatic" target="_blank">Patreon</a></li>
 </ul>
-<h3><span style="color: #0000ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Davis P (he/him) - Storyboarder, occasional colorist, &amp; token Canadian</span><strong><br /></strong></h3>
-<p>Davis P is a freelance Canadian artist who is not only based in Los Angeles, CA, but is also based. Upon being requested with information for his bio, Davis claimed to be hungry and tired. Beyond that, he has been drawing with his left hand for his whole life and it's been going okay.</p>
+<h3><span style="color: #cc99ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Davis P (he/him) - Storyboarder, occasional colorist, &amp; token Canadian</span><strong><br /></strong></h3>
+<p>Davis is a freelance Canadian artist who is not only based in Los Angeles, CA, but is also based. Upon being requested with information for his bio, Davis claimed to be hungry and tired. Beyond that, he has been drawing with his left hand for his whole life and it's been going okay.</p>
 <p>His roles in the comic include but are not limited to: storyboarding pages, drawing in different resolutions to Katja's frustrations, generally causing problems (affectionate), being 99% of Cayetana's impulse control, and being a good bean that deserves love.</p>
 <ul>
 <li><a href="https://twitter.com/lilfunkman" target="_blank">Twitter</a> <br /><br /></li>
 </ul>
-<h3><span style="color: #0000ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Kate Hunt (she/her) - Lineart, colorist, and voted most artistic in high school</span></h3>
+<h3><span style="color: #ff00ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Kate Hunt (she/her) - Lineart, colorist, and voted most artistic in high school</span></h3>
 <p>Kate is a freelance artist based in Portland, OR, who claims her only redeeming factors are her sick artworks and her hot bod because the rest of her is a talented joke (her words). Initially a computer science major, she decided that hey, art is fun, so she switched to that because who even cares at this point. She also is a My Little Pony art chad.</p>
 <p>Her roles in the comic include but are not limited to: line-arting and being the style for the comic, doing miscellaneous assets when needed, stopping Cayetana from posting on social media at 3 AM, reminding the team to drink water, social media work, picking amazing colors, and doing too much and then apologizing that she's not doing enough.</p>
 <ul>
