@@ -5,7 +5,10 @@
 {# This is the start of the `content` block. It's part of the <body> of the page. This is where all the visible
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {%- block content %}
-<h1 id="page-title">Welcome to the Last Resort!</h1>
+<h1 id="page-title"><span style="text-decoration: underline;">Welcome to the Last Resort!</span></h1>
+<p>College drop-out Sophia Majorelle thinks her life is pretty much a miserable failure. She's got no plans, no hopes, no dreams, no nothing.</p>
+<p>So, when an eccentric man offers her a job as a bellgirl at a hotel in the afterlife (yes, the afterlife), she figures she might as well accept.</p>
+<p>It's not like she's got anything better to do, right?</p>
 <h1><span style="text-decoration: underline;"><span style="--darkreader-inline-color: #ffa31a; text-decoration: underline;">Origins...</span></span></h1>
 <p>The year is 2020. All over the globe, people have been staying inside their homes for months on end, trying their best to not fall prey to a global pandemic.</p>
 <p>It's two AM. Two people sit in bed, aimlessly bouncing off ideas for a project. Their names aren't important. How they look like isn't important, either (but if it was important, rest assured, they are totally good-looking and fit). The only thing that matters is that so far they've only come up with a Ghost Grandma dating sim so, clearly, things are not going well.</p>
