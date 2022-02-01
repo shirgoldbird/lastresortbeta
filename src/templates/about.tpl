@@ -38,19 +38,19 @@
 <ul>
 <li><a href="https://twitter.com/lilfunkman" target="_blank">Twitter</a> <br /><br /></li>
 </ul>
-<h3><span style="color: #ff00ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Kate Hunt (she/her) - Lineart, colorist, and voted most artistic in high school</span></h3>
-<p>Kate is a freelance artist based in Portland, OR, who claims her only redeeming factors are her sick artworks and her hot bod because the rest of her is a talented joke (her words). Initially a computer science major, she decided that hey, art is fun, so she switched to that because who even cares at this point. She also is a My Little Pony art chad.</p>
-<p>Her roles in the comic include but are not limited to: line-arting and being the style for the comic, doing miscellaneous assets when needed, stopping Cayetana from posting on social media at 3 AM, reminding the team to drink water, social media work, picking amazing colors, and doing too much and then apologizing that she's not doing enough.</p>
-<ul>
-<li><a href="https://twitter.com/dawnf1re" target="_blank">Twitter</a></li>
-<li><a href="https://www.patreon.com/Dawnfire" target="_blank">Patreon</a></li>
-</ul>
 <h3><span style="color: #0000ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Katja Lovrenčič (they/them) - Cleanup artist, character design, and gremlin</span></h3>
 <p>Katja is a freelance artist based in Slovenia, who is known for some of the most amazing cursed artwork you will ever have both the blessing and misfortune to witness. They have been drawing since they were small, and got their start in fandom scenes (Kung Fu Panda, Owl House, My Little Pony).</p>
 <p>Their roles in the comic include but are not limited to: cleaning up sketches (and bodies), doing miscellaneous social media art, being on a different timezone than everybody, being cursed, trying to keep the Google Drive organized, drawing hands for Kate, and being a gremlin (affectionate and derogatory).</p>
 <ul>
 <li><a href="https://twitter.com/maximasmac" target="_blank">Twitter</a></li>
 <li><a href="https://www.patreon.com/maxiima" target="_blank">Patreon</a></li>
+</ul>
+<h3><span style="color: #ff00ff; --darkreader-inline-color: #337dff;" data-darkreader-inline-color="">Kate Hunt (she/her) - Lineart, colorist, and voted most artistic in high school</span></h3>
+<p>Kate is a freelance artist based in Portland, OR, who claims her only redeeming factors are her sick artworks and her hot bod because the rest of her is a talented joke (her words). Initially a computer science major, she decided that hey, art is fun, so she switched to that because who even cares at this point. She also is a My Little Pony art chad.</p>
+<p>Her roles in the comic include but are not limited to: line-arting and being the style for the comic, doing miscellaneous assets when needed, stopping Cayetana from posting on social media at 3 AM, reminding the team to drink water, social media work, picking amazing colors, and doing too much and then apologizing that she's not doing enough.</p>
+<ul>
+<li><a href="https://twitter.com/dawnf1re" target="_blank">Twitter</a></li>
+<li><a href="https://www.patreon.com/Dawnfire" target="_blank">Patreon</a></li>
 </ul>
 {%- endblock %}
 {%- block script %}
