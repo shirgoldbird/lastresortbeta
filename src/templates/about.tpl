@@ -7,7 +7,7 @@
 {%- block content %}
 <h1 id="page-title"><span style="text-decoration: underline;">Welcome to the Last Resort!</span></h1>
 <p>College drop-out Sophia Majorelle thinks her life is pretty much a miserable failure. She's got no plans, no hopes, no dreams, no nothing.</p>
-<p>So, when an eccentric man offers her a job as a bellgirl at a hotel in the afterlife (yes, the afterlife), she figures she might as well accept.</p>
+<p>So, when an eccentric man offers her a job as a bellgirl at a hotel in the afterlife (yes, literally, the afterlife), she figures she might as well accept.</p>
 <p>It's not like she's got anything better to do, right?</p>
 <h1><span style="text-decoration: underline;"><span style="--darkreader-inline-color: #ffa31a; text-decoration: underline;">Origins...</span></span></h1>
 <p>The year is 2020. All over the globe, people have been staying inside their homes for months on end, trying their best to not fall prey to a global pandemic.</p>
