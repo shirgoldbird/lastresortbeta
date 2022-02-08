@@ -1,0 +1,45 @@
+/* Last Resort Theme CSS */
+
+img#banner-img {
+    width: unset;
+}
+
+div#comic-page {
+    grid-row: 1 / 4;
+}
+
+div#navigation-bar {
+    align-items: center;
+    grid-area: 2/1;
+    height: 100%;
+    margin: unset;
+}
+
+div#left-nav-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#right-nav-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#container {
+    max-width: unset; ;/* The width of the main box that contains all content on the pages */ 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 10% 5% 85%;
+    grid-gap: 1em;
+}
+
+div#blurb {
+    width: unset;
+}
+
+img#comic-image {
+    max-width: 100%;
+}
