@@ -1,6 +1,6 @@
 {# This template extends the base.tpl template, meaning that base.tpl provides a large framework
    that this template then adds to. See base.tpl for more information. #}
-{% extends "base.tpl" %}
+{% extends "comic_base.tpl" %}
 {# `block head` means that the next two lines go where the `head` block is defined in base.tpl #}
 {%- block head %}
     {# `super()` means that everything that's currently in the `head` block in base.tpl is added first, and then the
