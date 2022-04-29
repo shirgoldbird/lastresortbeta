@@ -5,6 +5,7 @@
 {# This is the start of the `content` block. It's part of the <body> of the page. This is where all the visible
    parts of the website after the links bar and before the "Powered by comic_git" footer go. #}
 {%- block content %}
+<div id="about">
 <h1 id="page-title"><span style="text-decoration: underline;">Welcome to the Last Resort!</span></h1>
 <p>College drop-out Sophia Majorelle thinks her life is pretty much a miserable failure. She's got no plans, no hopes, no dreams, no nothing.</p>
 <p>So, when she's offered a job working as a bellgirl at a hotel in the afterlife (yes, that afterlife), she figures she might as well accept.</p>
@@ -52,6 +53,7 @@
 <li><a href="https://twitter.com/dawnf1re" target="_blank">Twitter</a></li>
 <li><a href="https://www.patreon.com/Dawnfire" target="_blank">Patreon</a></li>
 </ul>
+</div>
 {%- endblock %}
 {%- block script %}
 {%- endblock %}
