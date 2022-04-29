@@ -68,6 +68,15 @@ div#blurb {
     display: block;
 }
 
+#socials {
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
+#socials a {
+    text-decoration: none;
+}
+
 @media (min-width: 869px) and (max-width: 2000px) {
     div#blurb {
         display: inline-block;

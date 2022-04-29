@@ -100,6 +100,23 @@
             {%- endfor %}
             </div>
         {%- endif %}
+        <div id="socials">
+            <a href="https://www.patreon.com/lastresortcomic" 
+                target="_blank"
+                rel="noreferrer">
+                <i class="fa-brands fa-patreon"></i>
+            </a>
+            <a href="https://twitter.com/lastresortcomic" 
+                target="_blank"
+                rel="noreferrer">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="/feed" 
+                target="_blank"
+                rel="noreferrer">
+                <i class="fa-solid fa-rss"></i>
+            </a>
+        </div>
         <hr id="post-body-break">
         <div id="post-body">
             {{ post_html }}

@@ -39,6 +39,7 @@
     <meta property="og:image:height" content="100px" />
     <meta name="twitter:card" content="summary">
     <meta name="theme-color" content="#f57a67">
+    <script src="https://kit.fontawesome.com/07af19e0f4.js" crossorigin="anonymous"></script>
     <title>{{ page_title }} - {{ comic_title }}</title>
     {%- endblock %}
 </head>
