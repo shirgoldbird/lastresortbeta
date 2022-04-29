@@ -1,11 +1,17 @@
 /* Last Resort Theme CSS */
 
 img#banner-img {
-    width: unset;
+    max-height: 100%;
 }
 
-div#comic-page {
-    grid-row: 1 / 4;
+
+div#banner {
+    margin: 0 auto;
+}
+
+div#links-bar {
+    margin-bottom: 0;
+    align-items: center;
 }
 
 div#navigation-bar {
@@ -13,33 +19,66 @@ div#navigation-bar {
     grid-area: 2/1;
     height: 100%;
     margin: unset;
+    white-space: nowrap;
 }
 
 div#left-nav-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 50%;
 }
 
 div#right-nav-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-div#container {
-    max-width: unset; ;/* The width of the main box that contains all content on the pages */ 
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 25% 75%;
-    grid-template-rows: 10% 5% 85%;
-    grid-gap: 1em;
+    max-width: 50%;
 }
 
 div#blurb {
     width: unset;
+    word-break: break-word;
 }
 
 img#comic-image {
     max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+    #left-nav-buttons #first-button {
+        align-self: flex-end;
+    }
+
+    #right-nav-buttons #next-button {
+        align-self: flex-start;
+    }
+}
+
+div#container {
+    grid-template-columns: 100%;
+    grid-template-rows: unset;
+}
+
+div#comic-page {
+    grid-row: 1 / 4;
+}
+
+div#blurb {
+    display: block;
+}
+
+@media (min-width: 868px) and (max-width: 2000px) {
+    div#blurb {
+        display: inline-block;
+    }
+
+    div#container {
+        max-width: unset;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 10% 10% 80%;
+        grid-gap: 1em;
+    }
 }

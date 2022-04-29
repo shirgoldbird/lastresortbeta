@@ -45,6 +45,15 @@
 <body>
 {# This is the start of the `body` block. This is where all the visible parts of the website show up. #}
 {% block body %}
+<div id="links-bar">
+{# For loops let you take a list of a values and do something for each of those values. In this case,
+    it runs through list of all the links provided by the [Links Bar] section of your comic_info.ini file,
+    and it generates a link for each of them. #}
+{%- for link in links %}
+    <a class="link-bar-link" href="{{ link.url }}">{{ link.name }}</a>
+    {% if not loop.last %}<span class="link-bar-separator">|</span>{% endif %}
+{%- endfor %}
+</div>
 <div id="container">
     <div id="banner">
         <a id="banner-img-link" href="{{ base_dir }}/">
@@ -56,15 +65,6 @@
        in on their own. It will contain everything on a webpage after the links bar and before the
        "Powered by comic_git" footer. #}
     {% block content %}{% endblock %}
-</div>
-<div id="links-bar">
-{# For loops let you take a list of a values and do something for each of those values. In this case,
-    it runs through list of all the links provided by the [Links Bar] section of your comic_info.ini file,
-    and it generates a link for each of them. #}
-{%- for link in links %}
-    <a class="link-bar-link" href="{{ link.url }}">{{ link.name }}</a>
-    {% if not loop.last %}<span class="link-bar-separator">|</span>{% endif %}
-{%- endfor %}
 </div>
 {% endblock %}
 </body>

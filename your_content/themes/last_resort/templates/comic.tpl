@@ -35,10 +35,10 @@
     {% else %}
         <div id="left-nav-buttons">
             {% if first_id == current_id %}
-                <a class="navigation-button-disabled" id="previous-button">‹ Previous</a>
+                <a class="navigation-button-disabled" id="previous-button">‹ Prev</a>
                 <a class="navigation-button-disabled" id="first-button">‹‹ First</a>
             {% else %}
-                <a class="navigation-button" id="previous-button" href="{{ comic_base_dir }}/comic/{{ previous_id }}/#comic-page">‹ Previous</a>
+                <a class="navigation-button" id="previous-button" href="{{ comic_base_dir }}/comic/{{ previous_id }}/#comic-page">‹ Prev</a>
                 <a class="navigation-button" id="first-button" href="{{ comic_base_dir }}/comic/{{ first_id }}/#comic-page">‹‹ First</a>
             {% endif %}
         </div>
@@ -54,6 +54,17 @@
         </div>
     {% endif %}
     </div>
+
+    {# When text is surrounded by {{ these double curly braces }}, it's representing a variable that's passed in by
+    the Python script that generates the HTML file. That value is dropped into the existing HTML with no changes.
+    For example, if the value passed in to `comic_base_dir` is `comic_git`, then `{{ comic_base_dir }}/comic` 
+    becomes `/comic_git/comic` #}
+    <div id="comic-page">
+        <a href="{{ comic_base_dir }}/comic/{{ next_id }}/#comic-page">
+            <img id="comic-image" src="{{ base_dir }}/{{ comic_path }}" title="{{ alt_text }}"/>
+        </a>
+    </div>
+
     <div id="blurb">
         {# If blocks let you check the value of a variable and then generate different HTML depending on that variable.
         The if block below will generate non-functioning links for `First` and `Previous` if the current page is the
@@ -91,7 +102,7 @@
         {%- endif %}
         <hr id="post-body-break">
         <div id="post-body">
-{{ post_html }}
+            {{ post_html }}
         </div>
         {% if transcripts %}
         <table id="transcripts-container" border>
@@ -119,16 +130,6 @@
             </tr>
         </table>
         {% endif %}
-    </div>
-
-    {# When text is surrounded by {{ these double curly braces }}, it's representing a variable that's passed in by
-       the Python script that generates the HTML file. That value is dropped into the existing HTML with no changes.
-       For example, if the value passed in to `comic_base_dir` is `comic_git`, then `{{ comic_base_dir }}/comic` 
-       becomes `/comic_git/comic` #}
-    <div id="comic-page">
-        <a href="{{ comic_base_dir }}/comic/{{ next_id }}/#comic-page">
-            <img id="comic-image" src="{{ base_dir }}/{{ comic_path }}" title="{{ alt_text }}"/>
-        </a>
     </div>
 
 {%- endblock %}
