@@ -39,6 +39,7 @@
     <meta property="og:image:height" content="100px" />
     <meta name="twitter:card" content="summary">
     <meta name="theme-color" content="#f57a67">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page_title }} - {{ comic_title }}</title>
     {%- endblock %}
 </head>
