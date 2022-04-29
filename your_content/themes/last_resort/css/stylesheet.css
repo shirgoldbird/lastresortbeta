@@ -85,9 +85,25 @@ div#blurb {
     margin: 0 auto;
 }
 
+div#comic-container > #container {
+    padding: 0;
+}
+
+div#blurb {
+    margin-bottom: 0;
+}
+
+@media (max-width: 535px) {
+    div#links-bar {
+        display: block;
+        width: 100%;
+    }
+}
+
 @media (min-width: 869px) and (max-width: 2000px) {
     div#blurb {
         display: inline-block;
+        margin-bottom: 20px;
     }
 
     div#container {
@@ -100,5 +116,6 @@ div#blurb {
 
     div#comic-container > #container {
         grid-template-columns: 25% 75%;
+        padding: 30px;
     }
 }
