@@ -65,7 +65,7 @@
     {# This is the start of the `content` block. Nothing is here now because other templates are expected to fill it
        in on their own. It will contain everything on a webpage after the links bar and before the
        "Powered by comic_git" footer. #}
-    {% block content %}{% endblock %}
+    <div id="content">{% block content %}{% endblock %}</div>
 </div>
 {% endblock %}
 </body>

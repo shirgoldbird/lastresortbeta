@@ -77,6 +77,14 @@ div#blurb {
     text-decoration: none;
 }
 
+#socials ul {
+    list-style: none;
+}
+
+#content {
+    margin: 0 auto;
+}
+
 @media (min-width: 869px) and (max-width: 2000px) {
     div#blurb {
         display: inline-block;
