@@ -94,9 +94,20 @@ div#blurb {
 }
 
 @media (max-width: 535px) {
-    div#links-bar {
-        display: block;
+    div#container {
         width: 100%;
+    }
+
+    div#links-bar {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+@media (min-width: 536px) {
+    div#links-bar {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 

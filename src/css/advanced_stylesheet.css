@@ -1,16 +1,5 @@
 /* ADVANCED OPTIONS -- CHANGE AT YOUR OWN RISK */
 
-body {
-    text-align: center;
-}
-
-div#container {
-    display: inline-block;
-    text-align: left;
-    margin: 15px;
-    padding: 30px;
-}
-
 div img {
     max-width: 100%;
 }
@@ -21,9 +10,10 @@ div#banner {
 
 div#links-bar {
     margin-bottom: 15px;
-    padding: 5px;
+    padding: 5px 0;
     display: flex;
     justify-content: center;
+    background-color: #f57a67;  /* The background color of your links bar */
 }
 
 a.link-bar-link {
@@ -223,6 +213,9 @@ body {
     color: black;  /* The color of the font of most of the text on your website */
 	background: rgb(63,56,154);
 	background: linear-gradient(180deg, rgba(63,56,154,1) 0%, rgba(209,114,235,1) 100%);
+    margin: 0;
+    width: 100%;
+    text-align: center;
 }
 
 a {
@@ -236,10 +229,11 @@ a:hover {
 div#container {
     max-width: 1000px;  /* The width of the main box that contains all content on the pages */
     background-color: white;  /* The background color of the main box */
-}
-
-div#links-bar {
-    background-color: #f57a67;  /* The background color of your links bar */
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    padding: 30px;
 }
 
 footer {
